@@ -1,0 +1,11 @@
+CREATE DATABASE Vehicle;
+USE Vehicle;
+
+CREATE TABLE cars(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    brand VARCHAR(30) NOT NULL,
+    model VARCHAR(30) NOT NULL,
+    engine_size INT NOT NULL,
+    price DOUBLE NOT NULL,
+    speed INT NOT NULL
+);
